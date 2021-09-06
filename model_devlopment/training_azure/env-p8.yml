@@ -1,0 +1,21 @@
+name: proj8
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - pandas
+  - scikit-learn
+  - scipy
+  - python=3.8
+  - numpy
+  - ipykernel
+  - notebook
+  
+  - pip:
+      - azureml-core
+      - azureml-dataset-runtime
+      - azureml-defaults
+       - implicit
+       - joblib
+prefix: D:\Anaconda\envs\proj8
