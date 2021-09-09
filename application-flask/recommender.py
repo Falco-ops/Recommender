@@ -5,7 +5,7 @@ import os
 import sys
 
 dirname = os.path.dirname(__file__)
-name = 'recom_sample.sav' 
+name = 'recommender_model.pkl' 
 filename = os.path.join(dirname, name)
 #model
 model = joblib.load(filename)
