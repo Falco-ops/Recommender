@@ -6,7 +6,7 @@ The folder **application** contains the scripts to build the app with Flask alon
 The app is an API endpoint which take a json object with the user ID number and return a list of 5 recommendations.
 
 ## Model development  
-Pipeline building <https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb><notebook>
+Pipeline building [notebook]<https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb><notebook>
 
 ## Deploy the app
 To deploy the app yourself using Heroku follow the steps below:  
