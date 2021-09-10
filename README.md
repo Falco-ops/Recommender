@@ -32,8 +32,8 @@ Clone the following repo which contains only the python scripts for the app:
  `$ git commit -m "first commit"`
  
  * Step 6  
- Deploy code.  
- `$ git push heroku main`  to visualize the build logs type:  `$ heroku logs`
+ Deploy code.    
+ `$ git push heroku main`   to visualize the build logs type:  `$ heroku logs`
  
  * Step 7  
  Test the endpoint with python.
