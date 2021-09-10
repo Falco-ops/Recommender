@@ -7,7 +7,7 @@ The app is an API endpoint which take a json object with the user ID number and 
 
 ## Model development  
 [Pipeline building notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb):  
-final notebook to prepare the data and train the model. Define environment, compute power, pipeline step and register the model to Azure ML.  
+Final notebook to prepare the data and train the model. Define environment, compute power, pipeline step and register the model to Azure ML.  
 
 [Class_recommender script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/class_recommender.py):  
 Define the class named _Recommender_ with methods and attributes used in the project.  
@@ -22,7 +22,7 @@ Script used in the second step of the pipeline to train and register the model.
 **Input**: intermediary data folder containing output from step 1.  
 **Output**: the trained model and the user_item matrix.
 
-[Environment](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/env-p8.yml):
+[Environment](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/env-p8.yml):  
 .yml used for the environment by Azure.
 
 
