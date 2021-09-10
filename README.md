@@ -21,7 +21,7 @@ Clone the following repo which contains only the python scripts for the app:
  
  * Step 4  
  Create a new app in Heroku.  
- `$ heroku create <nameOfApp>`
+ `$ heroku create <nameOfApp>`  
   For an existing app you can use  
  `$ heroku git:remote -a <nameOfApp>`
  
