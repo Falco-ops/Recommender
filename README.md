@@ -60,7 +60,7 @@ Clone the following repo which contains only the python scripts for the app:
  
  * Step 7  
  Test the endpoint with python.
- The url endpoint will be given in git bash usualy in this form: `https://nameOfApp.heroku`
+ The url endpoint will be given in git bash once the build is complete usualy in this form: `https://nameOfApp.heroku`
  don't forget to add *predict* or *test* at the end.
  ```python
  import requests
