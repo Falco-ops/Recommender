@@ -17,7 +17,7 @@ Script used for the first step of the pipeline to prepare the raw data.
 **Input**: data folder (Azure) and model hyperparameters (factors, iterations and regularization).  
 **Output**: recommender object, matrix user_item use for training, dictionary user item pairs hidden for the test.
 
-[Train recommender class scripts](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/train_recommender_class.py):    
+[Train_recommender_class scripts](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/train_recommender_class.py):    
 Script used in the second step of the pipeline to train and register the model.  
 **Input**: intermediary data folder containing output from step 1.  
 **Output**: the trained model and the user_item matrix.
