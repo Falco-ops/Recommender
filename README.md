@@ -12,17 +12,17 @@ final notebook to prepare the data and train the model. Define environment, comp
 [Class_recommender script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/class_recommender.py):  
 Define the class named _Recommender_ with methods and attributes used in the project.  
 
-[data_prep_class script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/data_prep_class.py):  
+[Data_prep_class script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/data_prep_class.py):  
 Script used for the first step of the pipeline to prepare the raw data.  
-Input: data folder (Azure) and model hyperparameters (factors, iterations and regularization).  
-Output: recommender object, matrix user_item use for training, dictionary user item pairs hidden for the test.
+**Input**: data folder (Azure) and model hyperparameters (factors, iterations and regularization).  
+**Output**: recommender object, matrix user_item use for training, dictionary user item pairs hidden for the test.
 
-[train recommender class scripts](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/train_recommender_class.py):  
-Script used in the second step of the pipeline to train and register the model.
-Input: intermediary data folder containing output from step 1
-Output: the trained model and the user_item matrix.
+[Train recommender class scripts](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/train_recommender_class.py):    
+Script used in the second step of the pipeline to train and register the model.  
+**Input**: intermediary data folder containing output from step 1.  
+**Output**: the trained model and the user_item matrix.
 
-[environment](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/env-p8.yml):
+[Environment](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/env-p8.yml):
 .yml used for the environment by Azure.
 
 
