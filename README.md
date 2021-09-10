@@ -6,13 +6,25 @@ The folder **application** contains the scripts to build the app with Flask alon
 The app is an API endpoint which take a json object with the user ID number and return a list of 5 recommendations.
 
 ## Model development  
-Pipeline building [notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb):  
+[Pipeline building notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb):  
 final notebook to prepare the data and train the model. Define environment, compute power, pipeline step and register the model to Azure ML.  
+
 [Class_recommender script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/class_recommender.py):  
 Define the class named _Recommender_ with methods and attributes used in the project.  
+
 [data_prep_class script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/data_prep_class.py):  
 Script used for the first step of the pipeline to prepare the raw data.  
-Input: data folder (Azure) and model hyperparameters (factors, iterations and regularization).
+Input: data folder (Azure) and model hyperparameters (factors, iterations and regularization).  
+Output: recommender object, matrix user_item use for training, dictionary user item pairs hidden for the test.
+
+[train recommender class scripts](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/train_recommender_class.py):  
+Script used in the second step of the pipeline to train and register the model.
+Input: intermediary data folder containing output from step 1
+Output: the trained model and the user_item matrix.
+
+[environment](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/env-p8.yml):
+.yml used for the environment by Azure.
+
 
 ## Deploy the app
 To deploy the app yourself using Heroku follow the steps below:  
