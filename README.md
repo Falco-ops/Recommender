@@ -30,7 +30,7 @@ Clone the following repo which contains only the python scripts for the app:
  Initialize a local Git repository and commit the app code to it.  
  `$ git init`  
  `$ git add .`  
- `$ git commit -m "first commit"
+ `$ git commit -m "first commit"`
  
  * Step 6  
  Deploy code.  
