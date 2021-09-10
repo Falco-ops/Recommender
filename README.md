@@ -6,7 +6,13 @@ The folder **application** contains the scripts to build the app with Flask alon
 The app is an API endpoint which take a json object with the user ID number and return a list of 5 recommendations.
 
 ## Model development  
-Pipeline building [notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb)
+Pipeline building [notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb):  
+final notebook to prepare the data and train the model. Define environment, compute power, pipeline step and register the model to Azure ML.  
+[Class_recommender script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/class_recommender.py):  
+Define the class named _Recommender_ with methods and attributes used in the project.  
+[data_prep_class script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/data_prep_class.py):  
+Script used for the first step of the pipeline to prepare the raw data.  
+Input: data folder (Azure) and model hyperparameters (factors, iterations and regularization).
 
 ## Deploy the app
 To deploy the app yourself using Heroku follow the steps below:  
