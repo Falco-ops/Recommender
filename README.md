@@ -7,39 +7,39 @@ The app is an API endpoint which take a json object with the user ID number and 
 
 ## Deploy the app
 To deploy the app yourself using Heroku follow the steps below:  
-..* Step 1
+* Step 1  
 Clone the following repo which contains only the python scripts for the app:
 `git clone <https://github.com/Falco-ops/p8_flask_recommender>`  
   
- ..* Step 2
+ * Step 2  
  Sign up to Heroku and download the Heroku CLI <https://www.heroku.com>
  
- ..* Step 3
+ * Step 3  
  Open Git Bash in the folder containing the repo and login to the Heroku CLI:
  `$ heroku login`
  This will open your browser and ask for your login info.
  
- ..* Step 4
+ * Step 4  
  Create a new app in Heroku.
  `$ heroku create <nameOfApp>`
  
  For an existing app you can use
  `$ heroku git:remote -a <nameOfApp>`
  
- ..* Step 5
+ * Step 5  
  Initialize a local Git repository and commit the app code to it.
  `$ git init`
  `$ git add .`
  `$ git commit -m "first commit"
  
- ..* Step 6
+ * Step 6  
  Deploy code.
  `$ git push heroku main`
  
  to visualize the build logs type:
  `$ heroku logs`
  
- ..* Step 7
+ * Step 7  
  Test the endpoint with python.
  The url endpoint will be given in git bash usualy in this form: `https://nameOfApp.heroku`
  don't forget to add *predict* or *test* at the end.
