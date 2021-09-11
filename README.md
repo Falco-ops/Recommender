@@ -60,12 +60,12 @@ Clone the following repo which contains only the python scripts for the app:
  
  * Step 7  
  Test the endpoint with python.
- The url endpoint will be given in git bash once the build is complete usualy in this form: `https://nameOfApp.heroku`
+ The url endpoint will be given in git bash once the build is complete usualy in this form: `https://nameOfApp.herokuapp.com`
  don't forget to add *predict* or *test* at the end.
  ```python
  import requests
- url_test = 'https://nameOfApp.heroku/test'
- url_predict = 'https://nameOfApp.heroku/predict'
+ url_test = 'https://nameOfApp.herokuapp.com/test'
+ url_predict = 'https://nameOfApp.herokuapp.com/predict'
  payload = {userId: 14}
  
  #test ping
