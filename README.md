@@ -30,7 +30,7 @@ Script used in the second step of the pipeline to train and register the model.
 To deploy the app yourself using Heroku follow the steps below:  
 * Step 1  
 Clone the following repo which contains only the python scripts for the app:  
-`git clone https://github.com/Falco-ops/p8_flask_recommender`  
+```git clone https://github.com/Falco-ops/p8_flask_recommender```  
   
  * Step 2  
  Sign up to Heroku and download the Heroku CLI <https://www.heroku.com>
