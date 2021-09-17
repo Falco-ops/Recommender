@@ -53,19 +53,30 @@ user@appfolder ~path/to/appfolder
  $ heroku create <nameOfApp>
  ```
   For an existing app you can use  
- `$ heroku git:remote -a <nameOfApp>`
+ ```console
+user@appfolder ~path/to/appfolder
+ $ heroku git:remote -a <nameOfApp>
+ ```
  
  * Step 5  
  Initialize a local Git repository and commit the app code to it.  
- `$ git init`  
- `$ git add .`  
- `$ git commit -m "first commit"`
+ ```console
+ user@appfolder ~path/to/appfolder
+ $ git init 
+ $ git add . 
+ $ git commit -m "first commit"
+ ```
  
  * Step 6  
  Deploy code.    
- `$ git push heroku main`  
+ ```console
+ user@appfolder ~path/to/appfolder$ git push heroku main
+ ```  
  to visualize the build logs type:  
- `$ heroku logs`
+ ```console
+user@appfolder ~path/to/appfolder
+$ heroku logs
+```
  
  * Step 7  
  Test the endpoint with python.
