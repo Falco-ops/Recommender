@@ -70,7 +70,8 @@ user@appfolder ~path/to/appfolder
  * Step 6  
  Deploy code.    
  ```console
- user@appfolder ~path/to/appfolder$ git push heroku main
+ user@appfolder ~path/to/appfolder
+ $ git push heroku main
  ```  
  to visualize the build logs type:  
  ```console
