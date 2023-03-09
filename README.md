@@ -1,12 +1,12 @@
 # Recommender
 ## Content
-The folder **model development** contains the notebook to run the pipeline in Azure (be sure to add your own *config.json* to connect to your workspace). The scripts are all in the folder training_azure. The notebook *P08_azure_pipeline_class* build the pipeline and call the scripts located in the folder. *P08_recommender_class* defines the class used in the project. 
+The folder **model development** contains the notebook to run the pipeline in Azure (be sure to add your own *config.json* to connect to your workspace). The scripts are all in the folder training_azure. The notebook *Azure_pipeline_class* build the pipeline and call the scripts located in the folder. *Recommender_class* defines the class used in the project. 
   
 The folder **application** contains the scripts to build the app with Flask along with the best model saved and the user_item matrix from the training.  
 The app is an API endpoint which take a json object with the user ID number and return a list of 5 recommendations.
 
 ## Model development  
-[Pipeline building notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/p08_azure_pipeline_Class.ipynb):  
+[Pipeline building notebook](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/Azure_pipeline_Class.ipynb):  
 Final notebook to prepare the data and train the model. Define environment, compute power, pipeline step and register the model to Azure ML.  
 
 [Class_recommender script](https://github.com/Falco-ops/projet8_recommender/blob/main/model_devlopment/training_azure/class_recommender.py):  
