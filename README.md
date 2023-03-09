@@ -1,4 +1,4 @@
-# Projet8_recommender
+# Recommender
 ## Content
 The folder **model development** contains the notebook to run the pipeline in Azure (be sure to add your own *config.json* to connect to your workspace). The scripts are all in the folder training_azure. The notebook *P08_azure_pipeline_class* build the pipeline and call the scripts located in the folder. *P08_recommender_class* defines the class used in the project. 
   
